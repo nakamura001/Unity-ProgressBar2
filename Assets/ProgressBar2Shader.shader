@@ -12,7 +12,8 @@ Properties {
 SubShader {
 	Tags { "Queue"="Transparent" "LightMode" = "Vertex" }
 	LOD 200
-	
+	Blend SrcAlpha OneMinusSrcAlpha
+
 CGPROGRAM
 #pragma surface surf Lambert alpha
  
