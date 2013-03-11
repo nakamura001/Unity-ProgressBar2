@@ -15,7 +15,7 @@ SubShader {
 	Blend SrcAlpha OneMinusSrcAlpha
 
 CGPROGRAM
-#pragma surface surf Lambert alpha
+#pragma surface surf Lambert
  
 uniform sampler2D _InsideTex;
 uniform sampler2D _OutsideTex;
