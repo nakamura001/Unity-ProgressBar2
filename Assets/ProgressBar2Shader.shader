@@ -10,7 +10,7 @@ Properties {
 }
  
 SubShader {
-	Tags { "Queue"="Transparent" "LightMode" = "Vertex" }
+	Tags { "Queue"="Transparent" "LightMode" = "Always" }
 	LOD 200
 	Blend SrcAlpha OneMinusSrcAlpha
 
